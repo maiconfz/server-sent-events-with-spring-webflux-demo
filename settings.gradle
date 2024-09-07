@@ -4,4 +4,4 @@ plugins {
 }
 
 rootProject.name = 'server-sent-events-with-spring-webflux-demo'
-include('app')
+include('api')

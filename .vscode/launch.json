@@ -2,11 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-ServerSentEventsWithSpringWebfluxDemoApplication<app>",
+            "name": "Spring Boot-ServerSentEventsWithSpringWebfluxDemoApplication<api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "io.github.maiconfz.server_sent_events_with_spring_webflux_demo.ServerSentEventsWithSpringWebfluxDemoApplication",
-            "projectName": "app",
+            "projectName": "api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
