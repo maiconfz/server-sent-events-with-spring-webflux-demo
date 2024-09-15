@@ -18,7 +18,7 @@ public class MsgStreamController {
     @GetMapping("/msg-stream")
     public Flux<ServerSentEvent<Msg>> msgStream() {
         Flux<ServerSentEvent<Msg>> eventFlux = Flux
-                .interval(Duration.ofSeconds(5))
+                .interval(Duration.ofMillis(500))
                 .map(sequence -> ServerSentEvent.<Msg>builder()
                         .id(String.valueOf(sequence))
                         .event("message")
